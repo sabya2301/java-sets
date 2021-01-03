@@ -102,7 +102,7 @@ public class Main {
             System.out.println(moon.getName());
         }
 
-        System.out.println("=====================================\n");
+        System.out.println("=====================================-=\n");
         for(HeavenlyBody moon: planets){
             System.out.println(moon.getName()+ " " + moons.addAll(moon.getSatellites()));
         }
